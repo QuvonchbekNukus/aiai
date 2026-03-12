@@ -1,0 +1,23 @@
+2026-03-11 22:02:05 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-11 22:02:05 | INFO | PipelineScheduler | Scheduled channel tech_facts_daily every 480 minutes.
+2026-03-11 22:02:05 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-11 22:02:05 | INFO | PipelineScheduler | Scheduled channel history_flash every 720 minutes.
+2026-03-11 22:02:05 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-11 22:02:05 | INFO | PipelineScheduler | Scheduled channel mindset_bites every 288 minutes.
+2026-03-11 22:04:18 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-11 22:04:18 | INFO | PipelineScheduler | Scheduled channel tech_facts_daily every 480 minutes.
+2026-03-11 22:04:18 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-11 22:04:18 | INFO | PipelineScheduler | Scheduled channel history_flash every 720 minutes.
+2026-03-11 22:04:18 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-11 22:04:18 | INFO | PipelineScheduler | Scheduled channel mindset_bites every 288 minutes.
+2026-03-11 22:05:40 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-11 22:05:40 | INFO | PipelineScheduler | Scheduled channel tech_facts_daily every 480 minutes.
+2026-03-11 22:05:40 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-11 22:05:40 | INFO | PipelineScheduler | Scheduled channel history_flash every 720 minutes.
+2026-03-11 22:05:40 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-11 22:05:40 | INFO | PipelineScheduler | Scheduled channel mindset_bites every 288 minutes.
+2026-03-11 22:05:40 | INFO | httpx | HTTP Request: GET http://testserver/health "HTTP/1.1 200 OK"
+2026-03-11 22:05:40 | INFO | httpx | HTTP Request: GET http://testserver/channels "HTTP/1.1 200 OK"
+2026-03-11 22:33:45 | INFO | ContentPipeline | Using Windows SAPI TTS provider.
+2026-03-11 22:33:45 | INFO | ContentPipeline | Using styled local card generator for images.
+2026-03-11 22:33:47 | WARNING | ScriptService | Script provider ollama failed for topic The real reason apps drain battery in the background: Ollama unavailable: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение

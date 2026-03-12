@@ -1,0 +1,15 @@
+Create a short-form faceless video script for a 25-35 second vertical short.
+Inputs:
+- channel niche
+- audience
+- topic
+- language
+- prompt style
+- style notes
+
+Output requirements:
+1. Hook: one curiosity-driving line, under 14 words
+2. Body: 3 short spoken sentences with smooth flow
+3. CTA: one short action line, under 8 words
+4. Total spoken script should feel natural for YouTube Shorts / Instagram Reels
+5. Avoid generic filler and robotic phrasing

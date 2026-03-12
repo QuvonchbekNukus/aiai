@@ -1,0 +1,11 @@
+{
+  "job_id": "tech_facts_daily-20260311170114-hidden-smartphone-featur",
+  "channel_id": "tech_facts_daily",
+  "topic": "Hidden smartphone features most people ignore",
+  "language": "en",
+  "hook": "Hidden smartphone features most people ignore sounds simple, but most people miss the one detail that changes everything.",
+  "body": "In consumer technology facts, hidden smartphone features most people ignore matters because the audience reacts fastest to a clear and useful insight. Instead of adding filler, explain the core reason, show one memorable example, and keep every line moving forward. That structure makes short-form content easier to watch, easier to understand, and more likely to be remembered.",
+  "cta": "Follow tech facts daily for more fast insights.",
+  "created_at": "2026-03-11T17:01:14.364491Z",
+  "prompt_template": "Create a short-form faceless video script.\nInputs:\n- channel niche\n- topic\n- language\n- prompt style\n\nOutput structure:\n1. Hook: one curiosity-driving line\n2. Body: 3-5 concise sentences with useful information\n3. CTA: one short action line\n\n"
+}

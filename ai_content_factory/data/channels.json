@@ -1,0 +1,66 @@
+[
+  {
+    "channel_id": "tech_facts_daily",
+    "channel_name": "Tech Facts Daily",
+    "niche": "consumer technology facts and digital behavior",
+    "platforms": ["youtube", "instagram"],
+    "language": "en",
+    "audience": "18-34 viewers who like smart, fast explainers",
+    "videos_per_day": 3,
+    "active": true,
+    "prompt_style": "fast, specific, high-retention, curiosity-driven",
+    "output_folder": "tech_facts_daily",
+    "visual_theme": "dark glass tech cards with cyan and electric blue accents",
+    "cta_template": "Follow for more smart tech facts.",
+    "script_style_notes": "Lead with a surprising mechanism, explain it simply, and end with a clear payoff.",
+    "seed_topics": [
+      "Hidden smartphone features most people ignore",
+      "Why Wi-Fi slows down at night",
+      "Simple AI tools that save time every day",
+      "Laptop battery habits that reduce lifespan",
+      "The real reason apps drain battery in the background",
+      "How QR codes became a security risk"
+    ],
+    "hashtags": ["#TechFacts", "#TechShorts", "#AI", "#Gadgets", "#SmartExplainers"]
+  },
+  {
+    "channel_id": "history_flash",
+    "channel_name": "History Flash",
+    "niche": "history storytelling",
+    "platforms": ["youtube"],
+    "language": "en",
+    "audience": "viewers who want quick context and surprising details",
+    "videos_per_day": 2,
+    "active": true,
+    "prompt_style": "dramatic, clear, educational",
+    "output_folder": "history_flash",
+    "visual_theme": "editorial history cards with warm paper textures",
+    "seed_topics": [
+      "The shortest war in recorded history",
+      "Why ancient Rome built roads everywhere",
+      "A discovery that changed world maps",
+      "The secret behind medieval castles"
+    ],
+    "hashtags": ["#History", "#ShortHistory", "#LearnFast"]
+  },
+  {
+    "channel_id": "mindset_bites",
+    "channel_name": "Mindset Bites",
+    "niche": "self-improvement and productivity",
+    "platforms": ["youtube", "instagram"],
+    "language": "en",
+    "audience": "young professionals and students who want practical self-improvement",
+    "videos_per_day": 5,
+    "active": true,
+    "prompt_style": "motivational, direct, practical",
+    "output_folder": "mindset_bites",
+    "visual_theme": "bright editorial cards with confident contrast",
+    "seed_topics": [
+      "How to stop procrastinating in 2 minutes",
+      "A simple nightly reset for better mornings",
+      "Why tiny habits beat big goals",
+      "One focus trick for distracted people"
+    ],
+    "hashtags": ["#Mindset", "#Productivity", "#SelfImprovement"]
+  }
+]

@@ -1,0 +1,7 @@
+Split the script into 5-6 scenes.
+Each scene should include:
+- scene text for on-screen display
+- image prompt
+- voice text
+- estimated duration in seconds
+- keep pacing tight for a 25-35 second short

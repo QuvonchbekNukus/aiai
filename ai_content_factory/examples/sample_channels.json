@@ -1,0 +1,40 @@
+[
+  {
+    "channel_id": "tech_facts_daily",
+    "channel_name": "Tech Facts Daily",
+    "niche": "consumer technology facts and digital behavior",
+    "platforms": ["youtube", "instagram"],
+    "language": "en",
+    "audience": "18-34 viewers who like smart, fast explainers",
+    "videos_per_day": 3,
+    "active": true,
+    "prompt_style": "fast, specific, high-retention, curiosity-driven",
+    "output_folder": "tech_facts_daily",
+    "visual_theme": "dark glass tech cards with cyan and electric blue accents",
+    "cta_template": "Follow for more smart tech facts.",
+    "script_style_notes": "Lead with a surprising mechanism, explain it simply, and end with a clear payoff.",
+    "seed_topics": [
+      "Hidden smartphone features most people ignore",
+      "Why Wi-Fi slows down at night"
+    ],
+    "hashtags": ["#TechFacts", "#TechShorts", "#AI", "#Gadgets", "#SmartExplainers"]
+  },
+  {
+    "channel_id": "history_flash",
+    "channel_name": "History Flash",
+    "niche": "history storytelling",
+    "platforms": ["youtube"],
+    "language": "en",
+    "audience": "viewers who want quick context and surprising details",
+    "videos_per_day": 2,
+    "active": true,
+    "prompt_style": "dramatic, clear, educational",
+    "output_folder": "history_flash",
+    "visual_theme": "editorial history cards with warm paper textures",
+    "seed_topics": [
+      "The shortest war in recorded history",
+      "Why ancient Rome built roads everywhere"
+    ],
+    "hashtags": ["#History", "#ShortHistory", "#LearnFast"]
+  }
+]

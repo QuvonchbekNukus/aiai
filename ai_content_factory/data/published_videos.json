@@ -1,0 +1,239 @@
+[
+  {
+    "recorded_at": "2026-03-11T17:01:39.383839+00:00",
+    "channel_id": "tech_facts_daily",
+    "channel_name": "Tech Facts Daily",
+    "job": {
+      "job_id": "tech_facts_daily-20260311170114-hidden-smartphone-featur",
+      "channel_id": "tech_facts_daily",
+      "topic": "Hidden smartphone features most people ignore",
+      "status": "completed",
+      "created_at": "2026-03-11T17:01:14.364060Z",
+      "completed_at": "2026-03-11T17:01:39.383142Z",
+      "error_message": null,
+      "script_path": "D:\\aiai\\ai_content_factory\\output\\scripts\\tech_facts_daily\\tech_facts_daily-20260311170114-hidden-smartphone-featur_script.json",
+      "scene_path": "D:\\aiai\\ai_content_factory\\output\\scenes\\tech_facts_daily\\tech_facts_daily-20260311170114-hidden-smartphone-featur_scenes.json",
+      "subtitle_path": "D:\\aiai\\ai_content_factory\\output\\subtitles\\tech_facts_daily\\tech_facts_daily-20260311170114-hidden-smartphone-featur.srt",
+      "metadata_path": "D:\\aiai\\ai_content_factory\\output\\metadata\\tech_facts_daily\\tech_facts_daily-20260311170114-hidden-smartphone-featur_metadata.json",
+      "video_path": "D:\\aiai\\ai_content_factory\\output\\videos\\tech_facts_daily\\tech_facts_daily-20260311170114-hidden-smartphone-featur.mp4",
+      "uploads": [
+        {
+          "platform": "youtube",
+          "upload_id": "yt_tech_facts_daily_hidden-smartphone-featur_20260311170139",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-11T17:01:39.382991Z"
+        },
+        {
+          "platform": "instagram",
+          "upload_id": "ig_tech_facts_daily_hidden-smartphone-featur_20260311170139",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-11T17:01:39.383096Z"
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Hidden smartphone features most people ignore in under 60 seconds",
+      "description": "Topic: Hidden smartphone features most people ignore\nNiche: consumer technology facts\nHook: Hidden smartphone features most people ignore sounds simple, but most people miss the one detail that changes everything.\nCTA: Follow tech facts daily for more fast insights.",
+      "hashtags": [
+        "#TechShorts",
+        "#AI",
+        "#Gadgets",
+        "#Hidden",
+        "#Smartphone",
+        "#Features"
+      ],
+      "generated_at": "2026-03-11T17:01:20.338908Z"
+    },
+    "status": "published"
+  },
+  {
+    "recorded_at": "2026-03-11T17:04:40.941838+00:00",
+    "channel_id": "tech_facts_daily",
+    "channel_name": "Tech Facts Daily",
+    "job": {
+      "job_id": "tech_facts_daily-20260311170417-why-wi-fi-slows-down-at",
+      "channel_id": "tech_facts_daily",
+      "topic": "Why Wi-Fi slows down at night",
+      "status": "completed",
+      "created_at": "2026-03-11T17:04:17.803429Z",
+      "completed_at": "2026-03-11T17:04:40.928058Z",
+      "error_message": null,
+      "script_path": "D:\\aiai\\ai_content_factory\\output\\scripts\\tech_facts_daily\\tech_facts_daily-20260311170417-why-wi-fi-slows-down-at_script.json",
+      "scene_path": "D:\\aiai\\ai_content_factory\\output\\scenes\\tech_facts_daily\\tech_facts_daily-20260311170417-why-wi-fi-slows-down-at_scenes.json",
+      "subtitle_path": "D:\\aiai\\ai_content_factory\\output\\subtitles\\tech_facts_daily\\tech_facts_daily-20260311170417-why-wi-fi-slows-down-at.srt",
+      "metadata_path": "D:\\aiai\\ai_content_factory\\output\\metadata\\tech_facts_daily\\tech_facts_daily-20260311170417-why-wi-fi-slows-down-at_metadata.json",
+      "video_path": "D:\\aiai\\ai_content_factory\\output\\videos\\tech_facts_daily\\tech_facts_daily-20260311170417-why-wi-fi-slows-down-at.mp4",
+      "uploads": [
+        {
+          "platform": "youtube",
+          "upload_id": "yt_tech_facts_daily_why-wi-fi-slows-down-at_20260311170440",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-11T17:04:40.927965Z"
+        },
+        {
+          "platform": "instagram",
+          "upload_id": "ig_tech_facts_daily_why-wi-fi-slows-down-at_20260311170440",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-11T17:04:40.928029Z"
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Why Wi-Fi slows down at night in under 60 seconds",
+      "description": "Topic: Why Wi-Fi slows down at night\nNiche: consumer technology facts\nHook: Why Wi-Fi slows down at night sounds simple, but most people miss the one detail that changes everything.\nCTA: Follow tech facts daily for more fast insights.",
+      "hashtags": [
+        "#TechShorts",
+        "#AI",
+        "#Gadgets",
+        "#Why",
+        "#WiFi",
+        "#Slows"
+      ],
+      "generated_at": "2026-03-11T17:04:23.914808Z"
+    },
+    "status": "published"
+  },
+  {
+    "recorded_at": "2026-03-11T17:11:48.740786+00:00",
+    "channel_id": "tech_facts_daily",
+    "channel_name": "Tech Facts Daily",
+    "job": {
+      "job_id": "tech_facts_daily-20260311171121-simple-ai-tools-that-sav",
+      "channel_id": "tech_facts_daily",
+      "topic": "Simple AI tools that save time every day",
+      "status": "completed",
+      "created_at": "2026-03-11T17:11:21.834009Z",
+      "completed_at": "2026-03-11T17:11:48.739885Z",
+      "error_message": null,
+      "script_path": "D:\\aiai\\ai_content_factory\\output\\scripts\\tech_facts_daily\\tech_facts_daily-20260311171121-simple-ai-tools-that-sav_script.json",
+      "scene_path": "D:\\aiai\\ai_content_factory\\output\\scenes\\tech_facts_daily\\tech_facts_daily-20260311171121-simple-ai-tools-that-sav_scenes.json",
+      "subtitle_path": "D:\\aiai\\ai_content_factory\\output\\subtitles\\tech_facts_daily\\tech_facts_daily-20260311171121-simple-ai-tools-that-sav.srt",
+      "metadata_path": "D:\\aiai\\ai_content_factory\\output\\metadata\\tech_facts_daily\\tech_facts_daily-20260311171121-simple-ai-tools-that-sav_metadata.json",
+      "video_path": "D:\\aiai\\ai_content_factory\\output\\videos\\tech_facts_daily\\tech_facts_daily-20260311171121-simple-ai-tools-that-sav.mp4",
+      "uploads": [
+        {
+          "platform": "youtube",
+          "upload_id": "yt_tech_facts_daily_simple-ai-tools-that-sav_20260311171148",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-11T17:11:48.739708Z"
+        },
+        {
+          "platform": "instagram",
+          "upload_id": "ig_tech_facts_daily_simple-ai-tools-that-sav_20260311171148",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-11T17:11:48.739854Z"
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Simple AI tools that save time every day in under 60 seconds",
+      "description": "Topic: Simple AI tools that save time every day\nNiche: consumer technology facts\nHook: Simple AI tools that save time every day sounds simple, but most people miss the one detail that changes everything.\nCTA: Follow tech facts daily for more fast insights.",
+      "hashtags": [
+        "#TechShorts",
+        "#AI",
+        "#Gadgets",
+        "#Simple",
+        "#Ai",
+        "#Tools"
+      ],
+      "generated_at": "2026-03-11T17:11:28.343994Z"
+    },
+    "status": "published"
+  },
+  {
+    "recorded_at": "2026-03-11T17:13:51.577235+00:00",
+    "channel_id": "tech_facts_daily",
+    "channel_name": "Tech Facts Daily",
+    "job": {
+      "job_id": "tech_facts_daily-20260311171326-consumer-technology-fact",
+      "channel_id": "tech_facts_daily",
+      "topic": "Consumer Technology Facts angle 5",
+      "status": "completed",
+      "created_at": "2026-03-11T17:13:26.641173Z",
+      "completed_at": "2026-03-11T17:13:51.570111Z",
+      "error_message": null,
+      "script_path": "D:\\aiai\\ai_content_factory\\output\\scripts\\tech_facts_daily\\tech_facts_daily-20260311171326-consumer-technology-fact_script.json",
+      "scene_path": "D:\\aiai\\ai_content_factory\\output\\scenes\\tech_facts_daily\\tech_facts_daily-20260311171326-consumer-technology-fact_scenes.json",
+      "subtitle_path": "D:\\aiai\\ai_content_factory\\output\\subtitles\\tech_facts_daily\\tech_facts_daily-20260311171326-consumer-technology-fact.srt",
+      "metadata_path": "D:\\aiai\\ai_content_factory\\output\\metadata\\tech_facts_daily\\tech_facts_daily-20260311171326-consumer-technology-fact_metadata.json",
+      "video_path": "D:\\aiai\\ai_content_factory\\output\\videos\\tech_facts_daily\\tech_facts_daily-20260311171326-consumer-technology-fact.mp4",
+      "uploads": [
+        {
+          "platform": "youtube",
+          "upload_id": "yt_tech_facts_daily_consumer-technology-fact_20260311171351",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-11T17:13:51.570033Z"
+        },
+        {
+          "platform": "instagram",
+          "upload_id": "ig_tech_facts_daily_consumer-technology-fact_20260311171351",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-11T17:13:51.570081Z"
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Consumer Technology Facts angle 5 in under 60 seconds",
+      "description": "Topic: Consumer Technology Facts angle 5\nNiche: consumer technology facts\nHook: Consumer Technology Facts angle 5 sounds simple, but most people miss the one detail that changes everything.\nCTA: Follow tech facts daily for more fast insights.",
+      "hashtags": [
+        "#TechShorts",
+        "#AI",
+        "#Gadgets",
+        "#Consumer",
+        "#Technology",
+        "#Facts"
+      ],
+      "generated_at": "2026-03-11T17:13:34.534228Z"
+    },
+    "status": "published"
+  },
+  {
+    "recorded_at": "2026-03-11T17:34:23.191448+00:00",
+    "channel_id": "tech_facts_daily",
+    "channel_name": "Tech Facts Daily",
+    "job": {
+      "job_id": "tech_facts_daily-20260311173345-the-real-reason-apps-dra",
+      "channel_id": "tech_facts_daily",
+      "topic": "The real reason apps drain battery in the background",
+      "status": "completed",
+      "created_at": "2026-03-11T17:33:45.912038Z",
+      "completed_at": "2026-03-11T17:34:23.183509Z",
+      "error_message": null,
+      "script_path": "D:\\aiai\\ai_content_factory\\output\\scripts\\tech_facts_daily\\tech_facts_daily-20260311173345-the-real-reason-apps-dra_script.json",
+      "scene_path": "D:\\aiai\\ai_content_factory\\output\\scenes\\tech_facts_daily\\tech_facts_daily-20260311173345-the-real-reason-apps-dra_scenes.json",
+      "subtitle_path": "D:\\aiai\\ai_content_factory\\output\\subtitles\\tech_facts_daily\\tech_facts_daily-20260311173345-the-real-reason-apps-dra.srt",
+      "metadata_path": "D:\\aiai\\ai_content_factory\\output\\metadata\\tech_facts_daily\\tech_facts_daily-20260311173345-the-real-reason-apps-dra_metadata.json",
+      "video_path": "D:\\aiai\\ai_content_factory\\output\\videos\\tech_facts_daily\\tech_facts_daily-20260311173345-the-real-reason-apps-dra.mp4",
+      "uploads": [
+        {
+          "platform": "youtube",
+          "upload_id": "yt_tech_facts_daily_the-real-reason-apps-dra_20260311173423",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-11T17:34:23.183462Z"
+        },
+        {
+          "platform": "instagram",
+          "upload_id": "ig_tech_facts_daily_the-real-reason-apps-dra_20260311173423",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-11T17:34:23.183492Z"
+        }
+      ]
+    },
+    "metadata": {
+      "title": "The real reason apps drain battery in the background in under 60 seconds",
+      "description": "Topic: The real reason apps drain battery in the background\nNiche: consumer technology facts and digital behavior\nHook: Most people get the real reason apps drain battery in the background wrong for.\nCTA: Follow for more smart tech facts.",
+      "hashtags": [
+        "#TechFacts",
+        "#TechShorts",
+        "#AI",
+        "#Gadgets",
+        "#SmartExplainers",
+        "#The",
+        "#Real",
+        "#Reason"
+      ],
+      "generated_at": "2026-03-11T17:33:50.665607Z"
+    },
+    "status": "published"
+  }
+]

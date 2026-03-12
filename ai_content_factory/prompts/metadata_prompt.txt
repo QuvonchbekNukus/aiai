@@ -1,0 +1,6 @@
+Generate metadata for short-form video publishing.
+Required fields:
+- title
+- description
+- hashtags
+- keep title sharp and mobile-friendly

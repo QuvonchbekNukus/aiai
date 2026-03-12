@@ -1,0 +1,54 @@
+{
+  "job_id": "tech_facts_daily-20260311171121-simple-ai-tools-that-sav",
+  "channel_id": "tech_facts_daily",
+  "topic": "Simple AI tools that save time every day",
+  "scenes": [
+    {
+      "scene_index": 1,
+      "scene_text": "Simple AI tools that save time every day sounds simple, but most people miss the one detail that changes ev...",
+      "image_prompt": "Vertical 9:16 visual for Simple AI tools that save time every day. Scene focus: Simple AI tools that save time every day sounds simple, but most people miss the one detail that changes everything.. Niche: consumer technology facts. Style: short, punchy, curiosity-driven.",
+      "voice_text": "Simple AI tools that save time every day sounds simple, but most people miss the one detail that changes everything.",
+      "duration_seconds": 7.74,
+      "image_path": "D:\\aiai\\ai_content_factory\\output\\images\\tech_facts_daily\\tech_facts_daily-20260311171121-simple-ai-tools-that-sav\\scene_01.png",
+      "audio_path": "D:\\aiai\\ai_content_factory\\output\\audio\\tech_facts_daily\\tech_facts_daily-20260311171121-simple-ai-tools-that-sav\\scene_01.wav"
+    },
+    {
+      "scene_index": 2,
+      "scene_text": "In consumer technology facts, simple ai tools that save time every day matters because the audience reacts ...",
+      "image_prompt": "Vertical 9:16 visual for Simple AI tools that save time every day. Scene focus: In consumer technology facts, simple ai tools that save time every day matters because the audience reacts fastest to a clear and useful insight.. Niche: consumer technology facts. Style: short, punchy, curiosity-driven.",
+      "voice_text": "In consumer technology facts, simple ai tools that save time every day matters because the audience reacts fastest to a clear and useful insight.",
+      "duration_seconds": 9.29,
+      "image_path": "D:\\aiai\\ai_content_factory\\output\\images\\tech_facts_daily\\tech_facts_daily-20260311171121-simple-ai-tools-that-sav\\scene_02.png",
+      "audio_path": "D:\\aiai\\ai_content_factory\\output\\audio\\tech_facts_daily\\tech_facts_daily-20260311171121-simple-ai-tools-that-sav\\scene_02.wav"
+    },
+    {
+      "scene_index": 3,
+      "scene_text": "Instead of adding filler, explain the core reason, show one memorable example, and keep every line moving f...",
+      "image_prompt": "Vertical 9:16 visual for Simple AI tools that save time every day. Scene focus: Instead of adding filler, explain the core reason, show one memorable example, and keep every line moving forward.. Niche: consumer technology facts. Style: short, punchy, curiosity-driven.",
+      "voice_text": "Instead of adding filler, explain the core reason, show one memorable example, and keep every line moving forward.",
+      "duration_seconds": 6.97,
+      "image_path": "D:\\aiai\\ai_content_factory\\output\\images\\tech_facts_daily\\tech_facts_daily-20260311171121-simple-ai-tools-that-sav\\scene_03.png",
+      "audio_path": "D:\\aiai\\ai_content_factory\\output\\audio\\tech_facts_daily\\tech_facts_daily-20260311171121-simple-ai-tools-that-sav\\scene_03.wav"
+    },
+    {
+      "scene_index": 4,
+      "scene_text": "That structure makes short-form content easier to watch, easier to understand, and more likely to be rememb...",
+      "image_prompt": "Vertical 9:16 visual for Simple AI tools that save time every day. Scene focus: That structure makes short-form content easier to watch, easier to understand, and more likely to be remembered.. Niche: consumer technology facts. Style: short, punchy, curiosity-driven.",
+      "voice_text": "That structure makes short-form content easier to watch, easier to understand, and more likely to be remembered.",
+      "duration_seconds": 6.58,
+      "image_path": "D:\\aiai\\ai_content_factory\\output\\images\\tech_facts_daily\\tech_facts_daily-20260311171121-simple-ai-tools-that-sav\\scene_04.png",
+      "audio_path": "D:\\aiai\\ai_content_factory\\output\\audio\\tech_facts_daily\\tech_facts_daily-20260311171121-simple-ai-tools-that-sav\\scene_04.wav"
+    },
+    {
+      "scene_index": 5,
+      "scene_text": "Follow tech facts daily for more fast insights.",
+      "image_prompt": "Vertical 9:16 visual for Simple AI tools that save time every day. Scene focus: Follow tech facts daily for more fast insights.. Niche: consumer technology facts. Style: short, punchy, curiosity-driven.",
+      "voice_text": "Follow tech facts daily for more fast insights.",
+      "duration_seconds": 3.1,
+      "image_path": "D:\\aiai\\ai_content_factory\\output\\images\\tech_facts_daily\\tech_facts_daily-20260311171121-simple-ai-tools-that-sav\\scene_05.png",
+      "audio_path": "D:\\aiai\\ai_content_factory\\output\\audio\\tech_facts_daily\\tech_facts_daily-20260311171121-simple-ai-tools-that-sav\\scene_05.wav"
+    }
+  ],
+  "created_at": "2026-03-11T17:11:21.842298Z",
+  "prompt_template": "Split the script into 5-8 scenes.\nEach scene should include:\n- scene text for on-screen display\n- image prompt\n- voice text\n- estimated duration in seconds\n\n"
+}
