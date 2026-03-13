@@ -27,4 +27,4 @@ def test_scene_split_produces_5_to_8_scenes(temp_settings, sample_channel) -> No
     assert path.exists()
     assert 5 <= len(scene_plan.scenes) <= 8
     assert scene_plan.scenes[0].voice_text
-
+    assert scene_plan.scenes[0].duration_seconds < scene_plan.scenes[-1].duration_seconds

@@ -1,0 +1,54 @@
+{
+  "job_id": "tech_facts_daily-20260312131133-consumer-technology-fact",
+  "channel_id": "tech_facts_daily",
+  "topic": "Consumer Technology Facts And Digital Behavior angle 8",
+  "scenes": [
+    {
+      "scene_index": 1,
+      "scene_text": "Most people get consumer technology facts and digital behavior angle 8 wrong fo...",
+      "image_prompt": "Vertical 9:16 short video card for Consumer Technology Facts And Digital Behavior angle 8. Scene focus: Most people get consumer technology facts and digital behavior angle 8 wrong for one.. Niche: consumer technology facts and digital behavior. Audience: 18-34 viewers who like smart, fast explainers. Style: fast, specific, high-retention, curiosity-driven. Visual theme: dark glass tech cards with cyan and electric blue accents.",
+      "voice_text": "Most people get consumer technology facts and digital behavior angle 8 wrong for one.",
+      "duration_seconds": 8.71,
+      "image_path": "D:\\aiai\\ai_content_factory\\output\\images\\tech_facts_daily\\tech_facts_daily-20260312131133-consumer-technology-fact\\scene_01.png",
+      "audio_path": "D:\\aiai\\ai_content_factory\\output\\audio\\tech_facts_daily\\tech_facts_daily-20260312131133-consumer-technology-fact\\scene_01.wav"
+    },
+    {
+      "scene_index": 2,
+      "scene_text": "The real shift starts when you stop treating consumer technology facts and digi...",
+      "image_prompt": "Vertical 9:16 short video card for Consumer Technology Facts And Digital Behavior angle 8. Scene focus: The real shift starts when you stop treating consumer technology facts and digital behavior angle 8 like random.. Niche: consumer technology facts and digital behavior. Audience: 18-34 viewers who like smart, fast explainers. Style: fast, specific, high-retention, curiosity-driven. Visual theme: dark glass tech cards with cyan and electric blue accents.",
+      "voice_text": "The real shift starts when you stop treating consumer technology facts and digital behavior angle 8 like random.",
+      "duration_seconds": 10.25,
+      "image_path": "D:\\aiai\\ai_content_factory\\output\\images\\tech_facts_daily\\tech_facts_daily-20260312131133-consumer-technology-fact\\scene_02.png",
+      "audio_path": "D:\\aiai\\ai_content_factory\\output\\audio\\tech_facts_daily\\tech_facts_daily-20260312131133-consumer-technology-fact\\scene_02.wav"
+    },
+    {
+      "scene_index": 3,
+      "scene_text": "Focus on the mechanism, show one clear example, and connect it to a practical p...",
+      "image_prompt": "Vertical 9:16 short video card for Consumer Technology Facts And Digital Behavior angle 8. Scene focus: Focus on the mechanism, show one clear example, and connect it to a practical payoff fast.. Niche: consumer technology facts and digital behavior. Audience: 18-34 viewers who like smart, fast explainers. Style: fast, specific, high-retention, curiosity-driven. Visual theme: dark glass tech cards with cyan and electric blue accents.",
+      "voice_text": "Focus on the mechanism, show one clear example, and connect it to a practical payoff fast.",
+      "duration_seconds": 9.3,
+      "image_path": "D:\\aiai\\ai_content_factory\\output\\images\\tech_facts_daily\\tech_facts_daily-20260312131133-consumer-technology-fact\\scene_03.png",
+      "audio_path": "D:\\aiai\\ai_content_factory\\output\\audio\\tech_facts_daily\\tech_facts_daily-20260312131133-consumer-technology-fact\\scene_03.wav"
+    },
+    {
+      "scene_index": 4,
+      "scene_text": "That makes the idea easier to remember and much stronger for short-form retention.",
+      "image_prompt": "Vertical 9:16 short video card for Consumer Technology Facts And Digital Behavior angle 8. Scene focus: That makes the idea easier to remember and much stronger for short-form retention.. Niche: consumer technology facts and digital behavior. Audience: 18-34 viewers who like smart, fast explainers. Style: fast, specific, high-retention, curiosity-driven. Visual theme: dark glass tech cards with cyan and electric blue accents.",
+      "voice_text": "That makes the idea easier to remember and much stronger for short-form retention.",
+      "duration_seconds": 8.1,
+      "image_path": "D:\\aiai\\ai_content_factory\\output\\images\\tech_facts_daily\\tech_facts_daily-20260312131133-consumer-technology-fact\\scene_04.png",
+      "audio_path": "D:\\aiai\\ai_content_factory\\output\\audio\\tech_facts_daily\\tech_facts_daily-20260312131133-consumer-technology-fact\\scene_04.wav"
+    },
+    {
+      "scene_index": 5,
+      "scene_text": "Follow for more smart tech facts.",
+      "image_prompt": "Vertical 9:16 short video card for Consumer Technology Facts And Digital Behavior angle 8. Scene focus: Follow for more smart tech facts.. Niche: consumer technology facts and digital behavior. Audience: 18-34 viewers who like smart, fast explainers. Style: fast, specific, high-retention, curiosity-driven. Visual theme: dark glass tech cards with cyan and electric blue accents.",
+      "voice_text": "Follow for more smart tech facts.",
+      "duration_seconds": 4.01,
+      "image_path": "D:\\aiai\\ai_content_factory\\output\\images\\tech_facts_daily\\tech_facts_daily-20260312131133-consumer-technology-fact\\scene_05.png",
+      "audio_path": "D:\\aiai\\ai_content_factory\\output\\audio\\tech_facts_daily\\tech_facts_daily-20260312131133-consumer-technology-fact\\scene_05.wav"
+    }
+  ],
+  "created_at": "2026-03-12T13:11:33.209461Z",
+  "prompt_template": "Split the script into 5-6 scenes.\nEach scene should include:\n- scene text for on-screen display\n- image prompt\n- voice text\n- estimated duration in seconds\n- keep pacing tight for a 25-35 second short\n"
+}

@@ -235,5 +235,495 @@
       "generated_at": "2026-03-11T17:33:50.665607Z"
     },
     "status": "published"
+  },
+  {
+    "recorded_at": "2026-03-12T05:17:07.671673+00:00",
+    "channel_id": "tech_facts_daily",
+    "channel_name": "Tech Facts Daily",
+    "job": {
+      "job_id": "tech_facts_daily-20260312051627-how-qr-codes-became-a-se",
+      "channel_id": "tech_facts_daily",
+      "topic": "How QR codes became a security risk",
+      "status": "completed",
+      "created_at": "2026-03-12T05:16:27.958621Z",
+      "completed_at": "2026-03-12T05:17:07.653638Z",
+      "error_message": null,
+      "script_path": "D:\\aiai\\ai_content_factory\\output\\scripts\\tech_facts_daily\\tech_facts_daily-20260312051627-how-qr-codes-became-a-se_script.json",
+      "scene_path": "D:\\aiai\\ai_content_factory\\output\\scenes\\tech_facts_daily\\tech_facts_daily-20260312051627-how-qr-codes-became-a-se_scenes.json",
+      "subtitle_path": "D:\\aiai\\ai_content_factory\\output\\subtitles\\tech_facts_daily\\tech_facts_daily-20260312051627-how-qr-codes-became-a-se.srt",
+      "metadata_path": "D:\\aiai\\ai_content_factory\\output\\metadata\\tech_facts_daily\\tech_facts_daily-20260312051627-how-qr-codes-became-a-se_metadata.json",
+      "video_path": "D:\\aiai\\ai_content_factory\\output\\videos\\tech_facts_daily\\tech_facts_daily-20260312051627-how-qr-codes-became-a-se.mp4",
+      "uploads": [
+        {
+          "platform": "youtube",
+          "upload_id": "yt_tech_facts_daily_how-qr-codes-became-a-se_20260312051707",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-12T05:17:07.653592Z"
+        },
+        {
+          "platform": "instagram",
+          "upload_id": "ig_tech_facts_daily_how-qr-codes-became-a-se_20260312051707",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-12T05:17:07.653620Z"
+        }
+      ]
+    },
+    "metadata": {
+      "title": "How QR codes became a security risk in under 60 seconds",
+      "description": "Topic: How QR codes became a security risk\nNiche: consumer technology facts and digital behavior\nHook: Most people get how qr codes became a security risk wrong for one simple.\nCTA: Follow for more smart tech facts.",
+      "hashtags": [
+        "#TechFacts",
+        "#TechShorts",
+        "#AI",
+        "#Gadgets",
+        "#SmartExplainers",
+        "#How",
+        "#Qr",
+        "#Codes"
+      ],
+      "generated_at": "2026-03-12T05:16:30.122704Z"
+    },
+    "status": "published"
+  },
+  {
+    "recorded_at": "2026-03-12T13:12:21.363385+00:00",
+    "channel_id": "tech_facts_daily",
+    "channel_name": "Tech Facts Daily",
+    "job": {
+      "job_id": "tech_facts_daily-20260312131133-consumer-technology-fact",
+      "channel_id": "tech_facts_daily",
+      "topic": "Consumer Technology Facts And Digital Behavior angle 8",
+      "status": "completed",
+      "created_at": "2026-03-12T13:11:33.093001Z",
+      "completed_at": "2026-03-12T13:12:21.361897Z",
+      "error_message": null,
+      "script_path": "D:\\aiai\\ai_content_factory\\output\\scripts\\tech_facts_daily\\tech_facts_daily-20260312131133-consumer-technology-fact_script.json",
+      "scene_path": "D:\\aiai\\ai_content_factory\\output\\scenes\\tech_facts_daily\\tech_facts_daily-20260312131133-consumer-technology-fact_scenes.json",
+      "subtitle_path": "D:\\aiai\\ai_content_factory\\output\\subtitles\\tech_facts_daily\\tech_facts_daily-20260312131133-consumer-technology-fact.srt",
+      "metadata_path": "D:\\aiai\\ai_content_factory\\output\\metadata\\tech_facts_daily\\tech_facts_daily-20260312131133-consumer-technology-fact_metadata.json",
+      "video_path": "D:\\aiai\\ai_content_factory\\output\\videos\\tech_facts_daily\\tech_facts_daily-20260312131133-consumer-technology-fact.mp4",
+      "uploads": [
+        {
+          "platform": "youtube",
+          "upload_id": "yt_tech_facts_daily_consumer-technology-fact_20260312131221",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-12T13:12:21.361802Z"
+        },
+        {
+          "platform": "instagram",
+          "upload_id": "ig_tech_facts_daily_consumer-technology-fact_20260312131221",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-12T13:12:21.361863Z"
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Consumer Technology Facts And Digital Behavior angle 8 in under 60 seconds",
+      "description": "Topic: Consumer Technology Facts And Digital Behavior angle 8\nNiche: consumer technology facts and digital behavior\nHook: Most people get consumer technology facts and digital behavior angle 8 wrong for one.\nCTA: Follow for more smart tech facts.",
+      "hashtags": [
+        "#TechFacts",
+        "#TechShorts",
+        "#AI",
+        "#Gadgets",
+        "#SmartExplainers",
+        "#Consumer",
+        "#Technology",
+        "#Facts"
+      ],
+      "generated_at": "2026-03-12T13:11:36.016052Z"
+    },
+    "status": "published"
+  },
+  {
+    "recorded_at": "2026-03-12T14:15:32.912509+00:00",
+    "channel_id": "tech_facts_daily",
+    "channel_name": "Tech Facts Daily",
+    "job": {
+      "job_id": "tech_facts_daily-20260312141435-consumer-technology-fact",
+      "channel_id": "tech_facts_daily",
+      "topic": "Consumer Technology Facts And Digital Behavior angle 9",
+      "status": "completed",
+      "created_at": "2026-03-12T14:14:35.629643Z",
+      "completed_at": "2026-03-12T14:15:32.894008Z",
+      "error_message": null,
+      "script_path": "D:\\aiai\\ai_content_factory\\output\\scripts\\tech_facts_daily\\tech_facts_daily-20260312141435-consumer-technology-fact_script.json",
+      "scene_path": "D:\\aiai\\ai_content_factory\\output\\scenes\\tech_facts_daily\\tech_facts_daily-20260312141435-consumer-technology-fact_scenes.json",
+      "subtitle_path": "D:\\aiai\\ai_content_factory\\output\\subtitles\\tech_facts_daily\\tech_facts_daily-20260312141435-consumer-technology-fact.srt",
+      "metadata_path": "D:\\aiai\\ai_content_factory\\output\\metadata\\tech_facts_daily\\tech_facts_daily-20260312141435-consumer-technology-fact_metadata.json",
+      "video_path": "D:\\aiai\\ai_content_factory\\output\\videos\\tech_facts_daily\\tech_facts_daily-20260312141435-consumer-technology-fact.mp4",
+      "uploads": [
+        {
+          "platform": "youtube",
+          "upload_id": "yt_tech_facts_daily_consumer-technology-fact_20260312141532",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-12T14:15:32.893811Z"
+        },
+        {
+          "platform": "instagram",
+          "upload_id": "ig_tech_facts_daily_consumer-technology-fact_20260312141532",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-12T14:15:32.893965Z"
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Consumer Technology Facts And Digital Behavior angle 9 in under 60 seconds",
+      "description": "Topic: Consumer Technology Facts And Digital Behavior angle 9\nNiche: consumer technology facts and digital behavior\nHook: Most people get consumer technology facts and digital behavior angle 9 wrong for one.\nCTA: Follow for more smart tech facts.",
+      "hashtags": [
+        "#TechFacts",
+        "#TechShorts",
+        "#AI",
+        "#Gadgets",
+        "#SmartExplainers",
+        "#Consumer",
+        "#Technology",
+        "#Facts"
+      ],
+      "generated_at": "2026-03-12T14:14:49.460931Z"
+    },
+    "status": "published"
+  },
+  {
+    "recorded_at": "2026-03-12T16:13:12.619264+00:00",
+    "channel_id": "tech_facts_daily",
+    "channel_name": "Tech Facts Daily",
+    "job": {
+      "job_id": "tech_facts_daily-20260312161220-consumer-technology-fact",
+      "channel_id": "tech_facts_daily",
+      "topic": "Consumer Technology Facts And Digital Behavior angle 10",
+      "status": "completed",
+      "created_at": "2026-03-12T16:12:20.091291Z",
+      "completed_at": "2026-03-12T16:13:12.618865Z",
+      "error_message": null,
+      "script_path": "D:\\aiai\\ai_content_factory\\output\\scripts\\tech_facts_daily\\tech_facts_daily-20260312161220-consumer-technology-fact_script.json",
+      "scene_path": "D:\\aiai\\ai_content_factory\\output\\scenes\\tech_facts_daily\\tech_facts_daily-20260312161220-consumer-technology-fact_scenes.json",
+      "subtitle_path": "D:\\aiai\\ai_content_factory\\output\\subtitles\\tech_facts_daily\\tech_facts_daily-20260312161220-consumer-technology-fact.srt",
+      "metadata_path": "D:\\aiai\\ai_content_factory\\output\\metadata\\tech_facts_daily\\tech_facts_daily-20260312161220-consumer-technology-fact_metadata.json",
+      "video_path": "D:\\aiai\\ai_content_factory\\output\\videos\\tech_facts_daily\\tech_facts_daily-20260312161220-consumer-technology-fact.mp4",
+      "uploads": [
+        {
+          "platform": "youtube",
+          "upload_id": "yt_tech_facts_daily_consumer-technology-fact_20260312161312",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-12T16:13:12.618820Z"
+        },
+        {
+          "platform": "instagram",
+          "upload_id": "ig_tech_facts_daily_consumer-technology-fact_20260312161312",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-12T16:13:12.618850Z"
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Consumer Technology Facts And Digital Behavior angle 10 in under 60 seconds",
+      "description": "Topic: Consumer Technology Facts And Digital Behavior angle 10\nNiche: consumer technology facts and digital behavior\nHook: Most people get consumer technology facts and digital behavior angle 10 wrong for one.\nCTA: Follow for more smart tech facts.",
+      "hashtags": [
+        "#TechFacts",
+        "#TechShorts",
+        "#AI",
+        "#Gadgets",
+        "#SmartExplainers",
+        "#Consumer",
+        "#Technology",
+        "#Facts"
+      ],
+      "generated_at": "2026-03-12T16:12:35.855256Z"
+    },
+    "status": "published"
+  },
+  {
+    "recorded_at": "2026-03-12T16:17:08.136944+00:00",
+    "channel_id": "tech_facts_daily",
+    "channel_name": "Tech Facts Daily",
+    "job": {
+      "job_id": "tech_facts_daily-20260312161601-consumer-technology-fact",
+      "channel_id": "tech_facts_daily",
+      "topic": "Consumer Technology Facts And Digital Behavior angle 11",
+      "status": "completed",
+      "created_at": "2026-03-12T16:16:01.264883Z",
+      "completed_at": "2026-03-12T16:17:08.120881Z",
+      "error_message": null,
+      "script_path": "D:\\aiai\\ai_content_factory\\output\\scripts\\tech_facts_daily\\tech_facts_daily-20260312161601-consumer-technology-fact_script.json",
+      "scene_path": "D:\\aiai\\ai_content_factory\\output\\scenes\\tech_facts_daily\\tech_facts_daily-20260312161601-consumer-technology-fact_scenes.json",
+      "subtitle_path": "D:\\aiai\\ai_content_factory\\output\\subtitles\\tech_facts_daily\\tech_facts_daily-20260312161601-consumer-technology-fact.srt",
+      "metadata_path": "D:\\aiai\\ai_content_factory\\output\\metadata\\tech_facts_daily\\tech_facts_daily-20260312161601-consumer-technology-fact_metadata.json",
+      "video_path": "D:\\aiai\\ai_content_factory\\output\\videos\\tech_facts_daily\\tech_facts_daily-20260312161601-consumer-technology-fact.mp4",
+      "uploads": [
+        {
+          "platform": "youtube",
+          "upload_id": "yt_tech_facts_daily_consumer-technology-fact_20260312161708",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-12T16:17:08.120806Z"
+        },
+        {
+          "platform": "instagram",
+          "upload_id": "ig_tech_facts_daily_consumer-technology-fact_20260312161708",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-12T16:17:08.120852Z"
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Consumer Technology Facts And Digital Behavior angle 11 in under 60 seconds",
+      "description": "Topic: Consumer Technology Facts And Digital Behavior angle 11\nNiche: consumer technology facts and digital behavior\nHook: Most people get consumer technology facts and digital behavior angle 11 wrong for one.\nCTA: Follow for more smart tech facts.",
+      "hashtags": [
+        "#TechFacts",
+        "#TechShorts",
+        "#AI",
+        "#Gadgets",
+        "#SmartExplainers",
+        "#Consumer",
+        "#Technology",
+        "#Facts"
+      ],
+      "generated_at": "2026-03-12T16:16:15.927413Z"
+    },
+    "status": "published"
+  },
+  {
+    "recorded_at": "2026-03-12T16:25:37.939006+00:00",
+    "channel_id": "tech_facts_daily",
+    "channel_name": "Tech Facts Daily",
+    "job": {
+      "job_id": "tech_facts_daily-20260312162221-consumer-technology-fact",
+      "channel_id": "tech_facts_daily",
+      "topic": "Consumer Technology Facts And Digital Behavior angle 12",
+      "status": "completed",
+      "created_at": "2026-03-12T16:22:21.438176Z",
+      "completed_at": "2026-03-12T16:25:37.928415Z",
+      "error_message": null,
+      "script_path": "D:\\aiai\\ai_content_factory\\output\\scripts\\tech_facts_daily\\tech_facts_daily-20260312162221-consumer-technology-fact_script.json",
+      "scene_path": "D:\\aiai\\ai_content_factory\\output\\scenes\\tech_facts_daily\\tech_facts_daily-20260312162221-consumer-technology-fact_scenes.json",
+      "subtitle_path": "D:\\aiai\\ai_content_factory\\output\\subtitles\\tech_facts_daily\\tech_facts_daily-20260312162221-consumer-technology-fact.srt",
+      "metadata_path": "D:\\aiai\\ai_content_factory\\output\\metadata\\tech_facts_daily\\tech_facts_daily-20260312162221-consumer-technology-fact_metadata.json",
+      "video_path": "D:\\aiai\\ai_content_factory\\output\\videos\\tech_facts_daily\\tech_facts_daily-20260312162221-consumer-technology-fact.mp4",
+      "uploads": [
+        {
+          "platform": "youtube",
+          "upload_id": "yt_tech_facts_daily_consumer-technology-fact_20260312162537",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-12T16:25:37.928292Z"
+        },
+        {
+          "platform": "instagram",
+          "upload_id": "ig_tech_facts_daily_consumer-technology-fact_20260312162537",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-12T16:25:37.928370Z"
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Consumer Technology Facts And Digital Behavior angle 12 in under 60 seconds",
+      "description": "Topic: Consumer Technology Facts And Digital Behavior angle 12\nNiche: consumer technology facts and digital behavior\nHook: Most people get consumer technology facts and digital behavior angle 12 wrong for one.\nCTA: Follow for more smart tech facts.",
+      "hashtags": [
+        "#TechFacts",
+        "#TechShorts",
+        "#AI",
+        "#Gadgets",
+        "#SmartExplainers",
+        "#Consumer",
+        "#Technology",
+        "#Facts"
+      ],
+      "generated_at": "2026-03-12T16:24:41.321131Z"
+    },
+    "status": "published"
+  },
+  {
+    "recorded_at": "2026-03-12T16:26:49.896090+00:00",
+    "channel_id": "tech_facts_daily",
+    "channel_name": "Tech Facts Daily",
+    "job": {
+      "job_id": "tech_facts_daily-20260312162600-consumer-technology-fact",
+      "channel_id": "tech_facts_daily",
+      "topic": "Consumer Technology Facts And Digital Behavior angle 13",
+      "status": "completed",
+      "created_at": "2026-03-12T16:26:00.408953Z",
+      "completed_at": "2026-03-12T16:26:49.885717Z",
+      "error_message": null,
+      "script_path": "D:\\aiai\\ai_content_factory\\output\\scripts\\tech_facts_daily\\tech_facts_daily-20260312162600-consumer-technology-fact_script.json",
+      "scene_path": "D:\\aiai\\ai_content_factory\\output\\scenes\\tech_facts_daily\\tech_facts_daily-20260312162600-consumer-technology-fact_scenes.json",
+      "subtitle_path": "D:\\aiai\\ai_content_factory\\output\\subtitles\\tech_facts_daily\\tech_facts_daily-20260312162600-consumer-technology-fact.srt",
+      "metadata_path": "D:\\aiai\\ai_content_factory\\output\\metadata\\tech_facts_daily\\tech_facts_daily-20260312162600-consumer-technology-fact_metadata.json",
+      "video_path": "D:\\aiai\\ai_content_factory\\output\\videos\\tech_facts_daily\\tech_facts_daily-20260312162600-consumer-technology-fact.mp4",
+      "uploads": [
+        {
+          "platform": "youtube",
+          "upload_id": "yt_tech_facts_daily_consumer-technology-fact_20260312162649",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-12T16:26:49.885624Z"
+        },
+        {
+          "platform": "instagram",
+          "upload_id": "ig_tech_facts_daily_consumer-technology-fact_20260312162649",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-12T16:26:49.885683Z"
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Consumer Technology Facts And Digital Behavior angle 13 in under 60 seconds",
+      "description": "Topic: Consumer Technology Facts And Digital Behavior angle 13\nNiche: consumer technology facts and digital behavior\nHook: Your phone is secretly spying on you.\nCTA: Check your phone settings now.",
+      "hashtags": [
+        "#TechFacts",
+        "#TechShorts",
+        "#AI",
+        "#Gadgets",
+        "#SmartExplainers",
+        "#Consumer",
+        "#Technology",
+        "#Facts"
+      ],
+      "generated_at": "2026-03-12T16:26:19.379081Z"
+    },
+    "status": "published"
+  },
+  {
+    "recorded_at": "2026-03-12T16:46:02.456935+00:00",
+    "channel_id": "tech_facts_daily",
+    "channel_name": "Tech Facts Daily",
+    "job": {
+      "job_id": "tech_facts_daily-20260312164449-consumer-technology-fact",
+      "channel_id": "tech_facts_daily",
+      "topic": "Consumer Technology Facts And Digital Behavior angle 14",
+      "status": "completed",
+      "created_at": "2026-03-12T16:44:49.888650Z",
+      "completed_at": "2026-03-12T16:46:02.445964Z",
+      "error_message": null,
+      "script_path": "D:\\aiai\\ai_content_factory\\output\\scripts\\tech_facts_daily\\tech_facts_daily-20260312164449-consumer-technology-fact_script.json",
+      "scene_path": "D:\\aiai\\ai_content_factory\\output\\scenes\\tech_facts_daily\\tech_facts_daily-20260312164449-consumer-technology-fact_scenes.json",
+      "subtitle_path": "D:\\aiai\\ai_content_factory\\output\\subtitles\\tech_facts_daily\\tech_facts_daily-20260312164449-consumer-technology-fact.srt",
+      "metadata_path": "D:\\aiai\\ai_content_factory\\output\\metadata\\tech_facts_daily\\tech_facts_daily-20260312164449-consumer-technology-fact_metadata.json",
+      "video_path": "D:\\aiai\\ai_content_factory\\output\\videos\\tech_facts_daily\\tech_facts_daily-20260312164449-consumer-technology-fact.mp4",
+      "uploads": [
+        {
+          "platform": "youtube",
+          "upload_id": "yt_tech_facts_daily_consumer-technology-fact_20260312164602",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-12T16:46:02.445912Z"
+        },
+        {
+          "platform": "instagram",
+          "upload_id": "ig_tech_facts_daily_consumer-technology-fact_20260312164602",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-12T16:46:02.445947Z"
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Consumer Technology Facts And Digital Behavior angle 14 in under 60 seconds",
+      "description": "Topic: Consumer Technology Facts And Digital Behavior angle 14\nNiche: consumer technology facts and digital behavior\nHook: Did you know your phone can be hacked through this?\nCTA: Get the latest security tips.",
+      "hashtags": [
+        "#TechFacts",
+        "#TechShorts",
+        "#AI",
+        "#Gadgets",
+        "#SmartExplainers",
+        "#Consumer",
+        "#Technology",
+        "#Facts"
+      ],
+      "generated_at": "2026-03-12T16:45:18.660023Z"
+    },
+    "status": "published"
+  },
+  {
+    "recorded_at": "2026-03-12T17:08:55.697927+00:00",
+    "channel_id": "tech_facts_daily",
+    "channel_name": "Tech Facts Daily",
+    "job": {
+      "job_id": "tech_facts_daily-20260312170738-consumer-technology-fact",
+      "channel_id": "tech_facts_daily",
+      "topic": "Consumer Technology Facts And Digital Behavior angle 15",
+      "status": "completed",
+      "created_at": "2026-03-12T17:07:38.068101Z",
+      "completed_at": "2026-03-12T17:08:55.688582Z",
+      "error_message": null,
+      "script_path": "D:\\aiai\\ai_content_factory\\output\\scripts\\tech_facts_daily\\tech_facts_daily-20260312170738-consumer-technology-fact_script.json",
+      "scene_path": "D:\\aiai\\ai_content_factory\\output\\scenes\\tech_facts_daily\\tech_facts_daily-20260312170738-consumer-technology-fact_scenes.json",
+      "subtitle_path": "D:\\aiai\\ai_content_factory\\output\\subtitles\\tech_facts_daily\\tech_facts_daily-20260312170738-consumer-technology-fact.srt",
+      "metadata_path": "D:\\aiai\\ai_content_factory\\output\\metadata\\tech_facts_daily\\tech_facts_daily-20260312170738-consumer-technology-fact_metadata.json",
+      "video_path": "D:\\aiai\\ai_content_factory\\output\\videos\\tech_facts_daily\\tech_facts_daily-20260312170738-consumer-technology-fact.mp4",
+      "uploads": [
+        {
+          "platform": "youtube",
+          "upload_id": "yt_tech_facts_daily_consumer-technology-fact_20260312170855",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-12T17:08:55.688526Z"
+        },
+        {
+          "platform": "instagram",
+          "upload_id": "ig_tech_facts_daily_consumer-technology-fact_20260312170855",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-12T17:08:55.688563Z"
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Consumer Technology Facts And Digital Behavior angle 15 in under 60 seconds",
+      "description": "Topic: Consumer Technology Facts And Digital Behavior angle 15\nNiche: consumer technology facts and digital behavior\nHook: Your phone's GPS is tracking your location even when it's off.\nCTA: Learn more about the hidden features in your.",
+      "hashtags": [
+        "#TechFacts",
+        "#TechShorts",
+        "#AI",
+        "#Gadgets",
+        "#SmartExplainers",
+        "#Consumer",
+        "#Technology",
+        "#Facts"
+      ],
+      "generated_at": "2026-03-12T17:08:06.561392Z"
+    },
+    "status": "published"
+  },
+  {
+    "recorded_at": "2026-03-12T17:26:12.193180+00:00",
+    "channel_id": "tech_facts_daily",
+    "channel_name": "Tech Facts Daily",
+    "job": {
+      "job_id": "tech_facts_daily-20260312172507-consumer-technology-fact",
+      "channel_id": "tech_facts_daily",
+      "topic": "Consumer Technology Facts And Digital Behavior angle 16",
+      "status": "completed",
+      "created_at": "2026-03-12T17:25:07.862605Z",
+      "completed_at": "2026-03-12T17:26:12.182070Z",
+      "error_message": null,
+      "script_path": "D:\\aiai\\ai_content_factory\\output\\scripts\\tech_facts_daily\\tech_facts_daily-20260312172507-consumer-technology-fact_script.json",
+      "scene_path": "D:\\aiai\\ai_content_factory\\output\\scenes\\tech_facts_daily\\tech_facts_daily-20260312172507-consumer-technology-fact_scenes.json",
+      "subtitle_path": "D:\\aiai\\ai_content_factory\\output\\subtitles\\tech_facts_daily\\tech_facts_daily-20260312172507-consumer-technology-fact.srt",
+      "metadata_path": "D:\\aiai\\ai_content_factory\\output\\metadata\\tech_facts_daily\\tech_facts_daily-20260312172507-consumer-technology-fact_metadata.json",
+      "video_path": "D:\\aiai\\ai_content_factory\\output\\videos\\tech_facts_daily\\tech_facts_daily-20260312172507-consumer-technology-fact.mp4",
+      "uploads": [
+        {
+          "platform": "youtube",
+          "upload_id": "yt_tech_facts_daily_consumer-technology-fact_20260312172612",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-12T17:26:12.182019Z"
+        },
+        {
+          "platform": "instagram",
+          "upload_id": "ig_tech_facts_daily_consumer-technology-fact_20260312172612",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-03-12T17:26:12.182053Z"
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Consumer Technology Facts And Digital Behavior angle 16 in under 60 seconds",
+      "description": "Topic: Consumer Technology Facts And Digital Behavior angle 16\nNiche: consumer technology facts and digital behavior\nHook: Your phone is secretly spying on you!\nCTA: Follow for more smart tech facts.",
+      "hashtags": [
+        "#TechFacts",
+        "#TechShorts",
+        "#AI",
+        "#Gadgets",
+        "#SmartExplainers",
+        "#Consumer",
+        "#Technology",
+        "#Facts"
+      ],
+      "generated_at": "2026-03-12T17:25:32.867238Z"
+    },
+    "status": "published"
   }
 ]

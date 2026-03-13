@@ -27,7 +27,11 @@ class SceneService:
                 scene_text=self._build_scene_text(segment),
                 image_prompt=self._build_image_prompt(segment, script.topic, channel),
                 voice_text=segment,
-                duration_seconds=estimate_duration_seconds(segment, minimum=3.0),
+                duration_seconds=self._scene_duration(
+                    segment=segment,
+                    scene_index=index - 1,
+                    scene_count=len(segments),
+                ),
             )
             for index, segment in enumerate(segments, start=1)
         ]
@@ -87,6 +91,18 @@ class SceneService:
 
     def _build_scene_text(self, segment: str) -> str:
         return segment if len(segment) <= 82 else f"{segment[:79]}..."
+
+    def _scene_duration(self, *, segment: str, scene_index: int, scene_count: int) -> float:
+        base_duration = estimate_duration_seconds(segment, minimum=2.2)
+        if scene_index == 0:
+            return round(max(2.0, min(base_duration * 0.68, 2.7)), 2)
+        if scene_index == scene_count - 1:
+            return round(max(3.1, base_duration * 1.28), 2)
+
+        rhythm = (scene_index - 1) % 3
+        factors = (0.88, 0.96, 0.91)
+        minimums = (2.1, 2.35, 2.2)
+        return round(max(minimums[rhythm], base_duration * factors[rhythm]), 2)
 
     def _build_image_prompt(self, segment: str, topic: str, channel: ChannelConfig) -> str:
         return (

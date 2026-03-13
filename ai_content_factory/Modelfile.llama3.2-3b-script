@@ -1,0 +1,22 @@
+FROM D:/ollama_gguf/Llama-3.2-3B-Instruct-Q4_K_M.gguf
+
+TEMPLATE """{{ if .System }}<|start_header_id|>system<|end_header_id|>
+
+{{ .System }}<|eot_id|>{{ end }}{{ if .Prompt }}<|start_header_id|>user<|end_header_id|>
+
+{{ .Prompt }}<|eot_id|>{{ end }}<|start_header_id|>assistant<|end_header_id|>
+
+"""
+
+PARAMETER stop "<|start_header_id|>"
+PARAMETER stop "<|end_header_id|>"
+PARAMETER stop "<|eot_id|>"
+
+SYSTEM """You are a helpful assistant.
+When the user asks for JSON with keys hook, body, and cta:
+- Return only valid JSON.
+- Never leave hook, body, or cta empty.
+- Write a hook of 8 to 12 words.
+- Write a body of exactly 3 short sentences totaling 30 to 45 words.
+- Write a CTA of 4 to 7 words.
+"""

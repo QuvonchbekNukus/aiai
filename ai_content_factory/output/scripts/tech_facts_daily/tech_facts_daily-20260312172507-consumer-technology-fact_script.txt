@@ -1,0 +1,9 @@
+Topic: Consumer Technology Facts And Digital Behavior angle 16
+Provider: ollama
+Word Count: 41
+
+Hook: Your phone is secretly spying on you!
+
+Body: Did you know your phone tracks your every move? It's not just your location, it's also what you buy online. And it's all thanks to these sneaky cookies!
+
+CTA: Follow for more smart tech facts.

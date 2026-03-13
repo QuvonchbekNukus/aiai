@@ -1,0 +1,20 @@
+FROM D:/ollama_gguf/Qwen2.5-3B-Instruct-Q4_K_M.gguf
+
+TEMPLATE """{{ if .System }}<|im_start|>system
+{{ .System }}<|im_end|>
+{{ end }}{{ if .Prompt }}<|im_start|>user
+{{ .Prompt }}<|im_end|>
+{{ end }}<|im_start|>assistant
+"""
+
+PARAMETER stop "<|im_start|>"
+PARAMETER stop "<|im_end|>"
+
+SYSTEM """You are Qwen, created by Alibaba Cloud. You are a helpful assistant.
+When the user asks for JSON with keys hook, body, and cta:
+- Return only valid JSON.
+- Never leave hook, body, or cta empty.
+- Write a hook of 8 to 12 words.
+- Write a body of exactly 3 short sentences totaling 30 to 45 words.
+- Write a CTA of 4 to 7 words.
+"""

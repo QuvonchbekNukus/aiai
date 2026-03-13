@@ -84,7 +84,20 @@ class OllamaScriptGenerator(ScriptGenerator):
             raise RuntimeError("Ollama returned non-JSON script content.")
         parsed = json.loads(content[start : end + 1])
         return {
-            "hook": str(parsed.get("hook", "")).strip(),
-            "body": str(parsed.get("body", "")).strip(),
-            "cta": str(parsed.get("cta", "")).strip(),
+            "hook": self._coerce_text(parsed.get("hook", "")),
+            "body": self._coerce_text(parsed.get("body", "")),
+            "cta": self._coerce_text(parsed.get("cta", "")),
         }
+
+    def _coerce_text(self, value: object) -> str:
+        if value is None:
+            return ""
+        if isinstance(value, str):
+            return value.strip()
+        if isinstance(value, list):
+            parts = [self._coerce_text(item) for item in value]
+            return " ".join(part for part in parts if part).strip()
+        if isinstance(value, dict):
+            parts = [self._coerce_text(item) for item in value.values()]
+            return " ".join(part for part in parts if part).strip()
+        return str(value).strip()

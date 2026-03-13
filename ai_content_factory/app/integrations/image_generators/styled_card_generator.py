@@ -32,43 +32,67 @@ class StyledCardImageGenerator(ImageGenerator):
         overlay_draw = ImageDraw.Draw(overlay)
 
         self._draw_soft_glows(overlay_draw, width, height, colors)
+        self._draw_orbit_shapes(overlay_draw, width, height, colors)
         overlay = overlay.filter(ImageFilter.GaussianBlur(38))
         composed = Image.alpha_composite(base, overlay)
 
         draw = ImageDraw.Draw(composed)
-        headline_font = self._load_font(size=74, bold=True)
-        body_font = self._load_font(size=32, bold=False)
+        headline_font = self._load_font(size=82, bold=True)
+        support_font = self._load_font(size=34, bold=False)
         chip_font = self._load_font(size=26, bold=True)
+        metric_font = self._load_font(size=24, bold=True)
         footer_font = self._load_font(size=24, bold=False)
 
-        panel = (72, 250, width - 72, height - 210)
-        draw.rounded_rectangle(panel, radius=42, fill=(11, 16, 29, 212), outline=(255, 255, 255, 44), width=2)
-        draw.rounded_rectangle((72, 90, 360, 160), radius=24, fill=(255, 255, 255, 42))
-        draw.text((98, 107), channel_name.upper()[:22], fill=(255, 255, 255), font=chip_font)
+        self._draw_grid(draw, width, height, colors)
+        self._draw_corner_badges(draw, width, height, channel_name, scene_index, chip_font)
 
-        badge = (width - 190, 94, width - 72, 184)
-        draw.rounded_rectangle(badge, radius=28, fill=(255, 255, 255, 38))
-        draw.text((width - 155, 117), f"{scene_index:02d}", fill=(255, 255, 255), font=headline_font)
+        headline_panel = (74, 260, width - 74, 940)
+        draw.rounded_rectangle(
+            headline_panel,
+            radius=56,
+            fill=(8, 12, 24, 206),
+            outline=colors[2] + (112,),
+            width=3,
+        )
+        draw.rounded_rectangle((92, 284, 390, 352), radius=26, fill=colors[2] + (52,))
+        draw.text((122, 302), "QUICK TECH BREAKDOWN", fill=(255, 255, 255), font=chip_font)
 
-        title_text = wrap_text(scene_text, width=18)
-        draw.multiline_text((110, 330), title_text, font=headline_font, fill=(255, 255, 255), spacing=12)
+        title_text = wrap_text(scene_text, width=17)
+        draw.multiline_text((108, 390), title_text, font=headline_font, fill=(255, 255, 255), spacing=16)
+        draw.rounded_rectangle((94, 840, width - 94, 920), radius=28, fill=(255, 255, 255, 22))
+        draw.text(
+            (120, 860),
+            "Swipe-stopping visual with a single sharp takeaway",
+            font=support_font,
+            fill=(232, 238, 246),
+        )
 
-        accent_y = height - 360
-        draw.rounded_rectangle((110, accent_y, width - 110, accent_y + 12), radius=8, fill=colors[2] + (255,))
+        insight_panel = (74, 1002, width - 74, 1450)
+        draw.rounded_rectangle(
+            insight_panel,
+            radius=44,
+            fill=(12, 18, 33, 214),
+            outline=(255, 255, 255, 38),
+            width=2,
+        )
+        draw.text((112, 1044), "WHY THIS MATTERS", font=chip_font, fill=colors[2] + (255,))
         draw.multiline_text(
-            (110, accent_y + 42),
-            wrap_text(f"{visual_theme} | {topic}", width=34),
-            font=body_font,
-            fill=(230, 236, 245),
-            spacing=10,
+            (112, 1106),
+            wrap_text(f"{visual_theme} | {topic}", width=30),
+            font=support_font,
+            fill=(242, 246, 252),
+            spacing=12,
         )
         draw.multiline_text(
-            (110, height - 210),
-            wrap_text(prompt[:120], width=44),
+            (112, 1278),
+            wrap_text(prompt[:140], width=40),
             font=footer_font,
             fill=(196, 205, 220),
-            spacing=8,
+            spacing=10,
         )
+
+        self._draw_metric_chips(draw, width, height, colors, metric_font)
+        self._draw_signal_icon(draw, width, height, colors)
 
         self._draw_tech_lines(draw, width, height, colors)
         composed.convert("RGB").save(output_path, quality=95)
@@ -108,6 +132,90 @@ class StyledCardImageGenerator(ImageGenerator):
         draw.ellipse((width - 460, -40, width + 60, 520), fill=colors[2] + (90,))
         draw.ellipse((-120, height - 620, 460, height - 40), fill=colors[1] + (74,))
 
+    def _draw_orbit_shapes(
+        self,
+        draw: ImageDraw.ImageDraw,
+        width: int,
+        height: int,
+        colors: tuple[tuple[int, int, int], tuple[int, int, int], tuple[int, int, int]],
+    ) -> None:
+        draw.rounded_rectangle((width - 310, 248, width - 86, 620), radius=56, fill=colors[1] + (68,))
+        draw.ellipse((width - 286, 272, width - 110, 448), outline=(255, 255, 255, 82), width=5)
+        draw.ellipse((width - 250, 306, width - 146, 410), fill=colors[2] + (145,))
+        draw.rectangle((88, 1560, 324, 1788), fill=colors[2] + (36,))
+        draw.polygon(
+            [
+                (150, 1622),
+                (260, 1622),
+                (296, 1700),
+                (206, 1766),
+                (116, 1708),
+            ],
+            fill=colors[2] + (92,),
+        )
+
+    def _draw_grid(
+        self,
+        draw: ImageDraw.ImageDraw,
+        width: int,
+        height: int,
+        colors: tuple[tuple[int, int, int], tuple[int, int, int], tuple[int, int, int]],
+    ) -> None:
+        grid_color = colors[2] + (28,)
+        for x in range(72, width, 96):
+            draw.line([(x, 0), (x, height)], fill=grid_color, width=1)
+        for y in range(96, height, 108):
+            draw.line([(0, y), (width, y)], fill=grid_color, width=1)
+
+    def _draw_corner_badges(
+        self,
+        draw: ImageDraw.ImageDraw,
+        width: int,
+        height: int,
+        channel_name: str,
+        scene_index: int,
+        chip_font: ImageFont.ImageFont,
+    ) -> None:
+        draw.rounded_rectangle((72, 86, 392, 162), radius=28, fill=(255, 255, 255, 36))
+        draw.text((102, 108), channel_name.upper()[:20], fill=(255, 255, 255), font=chip_font)
+        draw.rounded_rectangle((width - 210, 86, width - 72, 180), radius=32, fill=(255, 255, 255, 32))
+        draw.text((width - 176, 114), f"SC {scene_index:02d}", fill=(255, 255, 255), font=chip_font)
+
+    def _draw_metric_chips(
+        self,
+        draw: ImageDraw.ImageDraw,
+        width: int,
+        height: int,
+        colors: tuple[tuple[int, int, int], tuple[int, int, int], tuple[int, int, int]],
+        metric_font: ImageFont.ImageFont,
+    ) -> None:
+        chips = [
+            ((74, 1492, 344, 1610), "FAST HOOK"),
+            ((370, 1492, 692, 1610), "HIGH RETENTION"),
+            ((718, 1492, width - 74, 1610), "VERTICAL STORY"),
+        ]
+        for bounds, label in chips:
+            draw.rounded_rectangle(bounds, radius=30, fill=(9, 14, 27, 218), outline=colors[2] + (70,), width=2)
+            draw.text((bounds[0] + 28, bounds[1] + 34), label, fill=(244, 248, 252), font=metric_font)
+
+    def _draw_signal_icon(
+        self,
+        draw: ImageDraw.ImageDraw,
+        width: int,
+        height: int,
+        colors: tuple[tuple[int, int, int], tuple[int, int, int], tuple[int, int, int]],
+    ) -> None:
+        origin_x = width - 220
+        origin_y = height - 286
+        for index, bar_height in enumerate((38, 62, 96, 132)):
+            left = origin_x + index * 28
+            draw.rounded_rectangle(
+                (left, origin_y - bar_height, left + 18, origin_y),
+                radius=8,
+                fill=colors[2] + (190,),
+            )
+        draw.ellipse((origin_x - 62, origin_y - 62, origin_x - 24, origin_y - 24), outline=(255, 255, 255, 160), width=4)
+
     def _draw_tech_lines(
         self,
         draw: ImageDraw.ImageDraw,
@@ -117,11 +225,11 @@ class StyledCardImageGenerator(ImageGenerator):
     ) -> None:
         line_color = colors[2] + (110,)
         points = [
-            ((width - 340, 280), (width - 180, 280)),
-            ((width - 220, 280), (width - 220, 440)),
-            ((width - 220, 440), (width - 120, 440)),
-            ((140, height - 320), (300, height - 320)),
-            ((300, height - 320), (300, height - 450)),
+            ((width - 370, 706), (width - 124, 706)),
+            ((width - 250, 706), (width - 250, 888)),
+            ((width - 250, 888), (width - 136, 888)),
+            ((124, height - 246), (356, height - 246)),
+            ((356, height - 246), (356, height - 424)),
         ]
         for start, end in points:
             draw.line([start, end], fill=line_color, width=5)

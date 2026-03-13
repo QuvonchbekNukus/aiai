@@ -1,0 +1,9 @@
+Topic: Consumer Technology Facts And Digital Behavior angle 15
+Provider: ollama
+Word Count: 59
+
+Hook: Your phone's GPS is tracking your location even when it's off.
+
+Body: It's called 'cell ID' tracking, and it's been used since 2001. Here's how it works: your phone uses nearby cell towers to estimate its location. Even when Location Services is turned off, your phone still sends its location to Apple.
+
+CTA: Learn more about the hidden features in your.

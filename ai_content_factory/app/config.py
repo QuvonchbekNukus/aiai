@@ -16,8 +16,8 @@ class Settings(BaseSettings):
     default_video_width: int = 1080
     default_video_height: int = 1920
     default_fps: int = 30
-    default_video_crf: int = 18
-    default_video_bitrate: str = "8M"
+    default_video_crf: int = 16
+    default_video_bitrate: str = "12M"
     default_audio_bitrate: str = "192k"
     default_language: str = "en"
     enable_mock_upload: bool = True
@@ -35,8 +35,11 @@ class Settings(BaseSettings):
     piper_model_path: Path | None = None
     piper_speaker: int | None = None
     windows_tts_rate: int = -1
-    subtitle_fontsize: int = 30
-    subtitle_margin_v: int = 120
+    subtitle_fontsize: int = 44
+    subtitle_margin_v: int = 170
+    hook_screen_duration_seconds: float = 2.0
+    cta_end_screen_duration_seconds: float = 1.8
+    enable_background_music: bool = True
     background_music_volume: float = 0.08
     background_music_path: Path | None = None
     scheduler_timezone: str = "UTC"
