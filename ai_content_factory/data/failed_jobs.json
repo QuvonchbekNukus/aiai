@@ -1,2 +1,24 @@
-[]
-
+[
+  {
+    "failed_at": "2026-03-13T06:39:13.167174+00:00",
+    "channel_id": "tech_facts_daily",
+    "channel_name": "Tech Facts Daily",
+    "job": {
+      "job_id": "tech_facts_daily-20260313063812-consumer-technology-fact",
+      "channel_id": "tech_facts_daily",
+      "topic": "Consumer Technology Facts And Digital Behavior angle 17",
+      "status": "failed",
+      "created_at": "2026-03-13T06:38:12.050298Z",
+      "completed_at": "2026-03-13T06:39:13.166904Z",
+      "error_message": "YouTube OAuth client secrets file was not found at D:\\aiai\\ai_content_factory\\secrets\\youtube_client_secret.json. Create a Desktop OAuth client in Google Cloud and save the JSON there.",
+      "script_path": "D:\\aiai\\ai_content_factory\\output\\scripts\\tech_facts_daily\\tech_facts_daily-20260313063812-consumer-technology-fact_script.json",
+      "scene_path": "D:\\aiai\\ai_content_factory\\output\\scenes\\tech_facts_daily\\tech_facts_daily-20260313063812-consumer-technology-fact_scenes.json",
+      "subtitle_path": "D:\\aiai\\ai_content_factory\\output\\subtitles\\tech_facts_daily\\tech_facts_daily-20260313063812-consumer-technology-fact.srt",
+      "metadata_path": "D:\\aiai\\ai_content_factory\\output\\metadata\\tech_facts_daily\\tech_facts_daily-20260313063812-consumer-technology-fact_metadata.json",
+      "video_path": "D:\\aiai\\ai_content_factory\\output\\videos\\tech_facts_daily\\tech_facts_daily-20260313063812-consumer-technology-fact.mp4",
+      "uploads": []
+    },
+    "error_type": "FileNotFoundError",
+    "error_message": "YouTube OAuth client secrets file was not found at D:\\aiai\\ai_content_factory\\secrets\\youtube_client_secret.json. Create a Desktop OAuth client in Google Cloud and save the JSON there."
+  }
+]

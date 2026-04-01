@@ -18,6 +18,7 @@ class UploadRecord(BaseModel):
     upload_id: str
     status: str
     uploaded_at: datetime
+    url: str | None = None
 
 
 class VideoJob(BaseModel):
@@ -39,4 +40,3 @@ class VideoJob(BaseModel):
 class PipelineRunResult(BaseModel):
     job: VideoJob
     published: bool = False
-

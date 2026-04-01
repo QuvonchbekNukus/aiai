@@ -47,3 +47,31 @@
 2026-03-12 22:07:38 | INFO | ContentPipeline | Using styled local card generator for images.
 2026-03-12 22:25:07 | INFO | ContentPipeline | Using Windows SAPI TTS provider.
 2026-03-12 22:25:07 | INFO | ContentPipeline | Using styled local card generator for images.
+2026-03-13 11:38:12 | INFO | ContentPipeline | Using Windows SAPI TTS provider.
+2026-03-13 11:38:12 | INFO | ContentPipeline | Using styled local card generator for images.
+2026-03-13 11:38:12 | WARNING | ScriptService | Script provider ollama failed for topic Consumer Technology Facts And Digital Behavior angle 17: Ollama unavailable: Not Found
+2026-03-13 11:39:13 | ERROR | ContentPipeline | Pipeline failed for channel tech_facts_daily
+Traceback (most recent call last):
+  File "D:\aiai\ai_content_factory\app\pipelines\content_pipeline.py", line 199, in run_for_channel
+    job.uploads = self._publish(
+                  ~~~~~~~~~~~~~^
+        channel=channel,
+        ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        metadata_path=metadata_path,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\aiai\ai_content_factory\app\pipelines\content_pipeline.py", line 224, in _publish
+    response = uploader.upload(
+        channel=channel,
+    ...<2 lines>...
+        metadata_path=metadata_path,
+    )
+  File "D:\aiai\ai_content_factory\app\integrations\uploaders\youtube_uploader.py", line 72, in upload
+    credentials = self._load_credentials()
+  File "D:\aiai\ai_content_factory\app\integrations\uploaders\youtube_uploader.py", line 129, in _load_credentials
+    raise FileNotFoundError(
+    ...<2 lines>...
+    )
+FileNotFoundError: YouTube OAuth client secrets file was not found at D:\aiai\ai_content_factory\secrets\youtube_client_secret.json. Create a Desktop OAuth client in Google Cloud and save the JSON there.

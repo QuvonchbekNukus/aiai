@@ -12,6 +12,7 @@ class UploadResponse:
     platform: str
     upload_id: str
     status: str
+    url: str | None = None
 
 
 class Uploader(ABC):
@@ -22,6 +23,6 @@ class Uploader(ABC):
         channel: ChannelConfig,
         video_path: Path,
         metadata: VideoMetadata,
+        metadata_path: Path | None = None,
     ) -> UploadResponse:
         raise NotImplementedError
-

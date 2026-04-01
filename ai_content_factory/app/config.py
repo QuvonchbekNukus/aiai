@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from functools import lru_cache
 from pathlib import Path
+from typing import Literal
 
 from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
@@ -42,6 +43,11 @@ class Settings(BaseSettings):
     enable_background_music: bool = True
     background_music_volume: float = 0.08
     background_music_path: Path | None = None
+    youtube_client_secrets_path: Path = Path("secrets/youtube_client_secret.json")
+    youtube_token_path: Path = Path("secrets/youtube_token.json")
+    youtube_privacy_status: Literal["private", "public", "unlisted"] = "private"
+    youtube_oauth_port: int = 0
+    youtube_category_id: str = "28"
     scheduler_timezone: str = "UTC"
     scheduler_autostart: bool = False
 
@@ -59,6 +65,10 @@ class Settings(BaseSettings):
             self.data_dir = (self.base_dir / self.data_dir).resolve()
         if self.background_music_path is not None and not self.background_music_path.is_absolute():
             self.background_music_path = (self.base_dir / self.background_music_path).resolve()
+        if self.youtube_client_secrets_path is not None and not self.youtube_client_secrets_path.is_absolute():
+            self.youtube_client_secrets_path = (self.base_dir / self.youtube_client_secrets_path).resolve()
+        if self.youtube_token_path is not None and not self.youtube_token_path.is_absolute():
+            self.youtube_token_path = (self.base_dir / self.youtube_token_path).resolve()
         if self.piper_model_path is not None and not self.piper_model_path.is_absolute():
             self.piper_model_path = (self.base_dir / self.piper_model_path).resolve()
 

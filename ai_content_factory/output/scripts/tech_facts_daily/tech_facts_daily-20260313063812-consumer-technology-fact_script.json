@@ -1,0 +1,12 @@
+{
+  "job_id": "tech_facts_daily-20260313063812-consumer-technology-fact",
+  "channel_id": "tech_facts_daily",
+  "topic": "Consumer Technology Facts And Digital Behavior angle 17",
+  "language": "en",
+  "hook": "Most people get consumer technology facts and digital behavior angle 17 wrong for one.",
+  "body": "The real shift starts when you stop treating consumer technology facts and digital behavior angle 17 like random. Focus on the mechanism, show one clear example, and connect it to a practical payoff fast. That makes the idea easier to remember and much stronger for short-form retention.",
+  "cta": "Follow for more smart tech facts.",
+  "created_at": "2026-03-13T06:38:12.090747Z",
+  "provider_name": "deterministic_fallback",
+  "prompt_template": "Create a short-form faceless video script for a 25-35 second vertical short.\nInputs:\n- channel niche\n- audience\n- topic\n- language\n- prompt style\n- style notes\n\nOutput requirements:\n1. Hook: one curiosity-driving line, under 14 words\n2. Body: 3 short spoken sentences with smooth flow\n3. CTA: one short action line, under 8 words\n4. Total spoken script should feel natural for YouTube Shorts / Instagram Reels\n5. Avoid generic filler and robotic phrasing\n"
+}

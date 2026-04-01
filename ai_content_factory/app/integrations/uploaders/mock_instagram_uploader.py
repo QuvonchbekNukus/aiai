@@ -14,6 +14,7 @@ class MockInstagramUploader(Uploader):
         channel: ChannelConfig,
         video_path: Path,
         metadata: VideoMetadata,
+        metadata_path: Path | None = None,
     ) -> UploadResponse:
         # TODO: Replace with Instagram Graph API publishing flow.
         suffix = utcnow().strftime("%Y%m%d%H%M%S")

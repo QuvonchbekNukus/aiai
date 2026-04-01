@@ -15,7 +15,7 @@ from app.integrations.tts.piper_tts import PiperTTSProvider
 from app.integrations.tts.windows_sapi_tts import WindowsSapiTTSProvider
 from app.integrations.uploaders.base import Uploader
 from app.integrations.uploaders.mock_instagram_uploader import MockInstagramUploader
-from app.integrations.uploaders.mock_youtube_uploader import MockYouTubeUploader
+from app.integrations.uploaders.youtube_uploader import YouTubeUploader
 from app.logger import configure_logging, get_logger
 from app.models import (
     ChannelConfig,
@@ -77,10 +77,7 @@ class ContentPipeline:
         image_generator: ImageGenerator = StyledCardImageGenerator()
         script_generators = cls._build_script_generators(settings)
         tts_provider = cls._build_tts_provider(settings)
-        uploaders: dict[PlatformName, Uploader] = {
-            PlatformName.YOUTUBE: MockYouTubeUploader(),
-            PlatformName.INSTAGRAM: MockInstagramUploader(),
-        }
+        uploaders = cls._build_uploaders(settings)
 
         get_logger(cls.__name__).info("Using styled local card generator for images.")
 
@@ -98,6 +95,15 @@ class ContentPipeline:
             uploaders=uploaders,
         )
         return cls(settings, dependencies)
+
+    @classmethod
+    def _build_uploaders(cls, settings: Settings) -> dict[PlatformName, Uploader]:
+        uploaders: dict[PlatformName, Uploader] = {
+            PlatformName.YOUTUBE: YouTubeUploader(settings),
+        }
+        if settings.enable_mock_upload:
+            uploaders[PlatformName.INSTAGRAM] = MockInstagramUploader()
+        return uploaders
 
     @classmethod
     def _build_script_generators(cls, settings: Settings) -> list[ScriptGenerator]:
@@ -190,7 +196,12 @@ class ContentPipeline:
             )
             job.video_path = str(video_path)
 
-            job.uploads = self._publish(channel=channel, video_path=video_path, metadata=metadata)
+            job.uploads = self._publish(
+                channel=channel,
+                video_path=video_path,
+                metadata=metadata,
+                metadata_path=metadata_path,
+            )
             job.status = JobStatus.COMPLETED
             job.completed_at = utcnow()
             self.publish_registry_service.record_success(channel=channel, job=job, metadata=metadata)
@@ -203,26 +214,26 @@ class ContentPipeline:
             self.logger.exception("Pipeline failed for channel %s", channel.channel_id)
             return PipelineRunResult(job=job, published=False)
 
-    def _publish(self, *, channel: ChannelConfig, video_path, metadata) -> list[UploadRecord]:
-        if not self.settings.enable_mock_upload:
-            self.logger.info(
-                "Mock upload disabled and no real uploaders configured. Video kept locally for channel %s.",
-                channel.channel_id,
-            )
-            return []
-
+    def _publish(self, *, channel: ChannelConfig, video_path, metadata, metadata_path) -> list[UploadRecord]:
         uploads: list[UploadRecord] = []
         for platform in channel.platforms:
             uploader = self.uploaders.get(platform)
             if not uploader:
+                self.logger.info("No uploader configured for platform %s on channel %s.", platform, channel.channel_id)
                 continue
-            response = uploader.upload(channel=channel, video_path=video_path, metadata=metadata)
+            response = uploader.upload(
+                channel=channel,
+                video_path=video_path,
+                metadata=metadata,
+                metadata_path=metadata_path,
+            )
             uploads.append(
                 UploadRecord(
                     platform=response.platform,
                     upload_id=response.upload_id,
                     status=response.status,
                     uploaded_at=utcnow(),
+                    url=response.url,
                 )
             )
         return uploads
