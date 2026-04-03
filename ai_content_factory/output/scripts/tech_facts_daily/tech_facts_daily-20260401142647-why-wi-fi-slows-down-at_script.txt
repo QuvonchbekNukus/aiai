@@ -1,0 +1,9 @@
+Topic: Why Wi-Fi slows down at night
+Provider: deterministic_fallback
+Word Count: 33
+
+Hook: Your Wi-Fi gets slower at night.
+
+Body: More nearby devices wake up after dinner. They crowd the same wireless channels. Your router waits longer, so everything feels slower.
+
+CTA: Follow for more smart tech facts.

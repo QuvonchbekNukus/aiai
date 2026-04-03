@@ -88,6 +88,17 @@ def format_srt_timestamp(total_seconds: float) -> str:
     return f"{hours:02d}:{minutes:02d}:{seconds:02d},{milliseconds:03d}"
 
 
+def format_ass_timestamp(total_seconds: float) -> str:
+    whole_seconds = int(total_seconds)
+    centiseconds = int(round((total_seconds - whole_seconds) * 100))
+    if centiseconds == 100:
+        whole_seconds += 1
+        centiseconds = 0
+    hours, remainder = divmod(whole_seconds, 3600)
+    minutes, seconds = divmod(remainder, 60)
+    return f"{hours}:{minutes:02d}:{seconds:02d}.{centiseconds:02d}"
+
+
 def run_command(
     command: Sequence[str],
     *,

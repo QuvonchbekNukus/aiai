@@ -1,0 +1,25 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Shorts,Bahnschrift SemiBold,42,&H00FFFFFF,&H004CE7FF,&H00000000,&H00000000,-1,0,0,0,100,100,0.2,0,1,3.4,0,2,92,92,152,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.90,Shorts,,0,0,0,,YOUR\N{\c&H004CE7FF&\b1}WI-FI{\c&H00FFFFFF&\b0} GETS
+Dialogue: 0,0:00:01.90,0:00:03.81,Shorts,,0,0,0,,{\c&H004CE7FF&\b1}SLOWER{\c&H00FFFFFF&\b0}\NAT NIGHT.
+Dialogue: 0,0:00:03.81,0:00:05.80,Shorts,,0,0,0,,MORE NEARBY\N{\c&H004CE7FF&\b1}DEVICES{\c&H00FFFFFF&\b0}
+Dialogue: 0,0:00:05.80,0:00:08.46,Shorts,,0,0,0,,WAKE UP\N{\c&H004CE7FF&\b1}AFTER{\c&H00FFFFFF&\b0}
+Dialogue: 0,0:00:08.46,0:00:08.46,Shorts,,0,0,0,,{\c&H004CE7FF&\b1}DINNER{\c&H00FFFFFF&\b0}.
+Dialogue: 0,0:00:08.46,0:00:10.56,Shorts,,0,0,0,,THEY\N{\c&H004CE7FF&\b1}CROWD{\c&H00FFFFFF&\b0} THE
+Dialogue: 0,0:00:10.56,0:00:12.65,Shorts,,0,0,0,,SAME\N{\c&H004CE7FF&\b1}WIRELESS{\c&H00FFFFFF&\b0} CHANNELS.
+Dialogue: 0,0:00:12.65,0:00:14.72,Shorts,,0,0,0,,YOUR\N{\c&H004CE7FF&\b1}ROUTER{\c&H00FFFFFF&\b0} WAITS
+Dialogue: 0,0:00:14.72,0:00:18.04,Shorts,,0,0,0,,LONGER, SO\N{\c&H004CE7FF&\b1}EVERYTHING{\c&H00FFFFFF&\b0}
+Dialogue: 0,0:00:18.04,0:00:18.18,Shorts,,0,0,0,,FEELS\N{\c&H004CE7FF&\b1}SLOWER{\c&H00FFFFFF&\b0}.
+Dialogue: 0,0:00:18.18,0:00:20.25,Shorts,,0,0,0,,{\c&H004CE7FF&\b1}FOLLOW{\c&H00FFFFFF&\b0}\NFOR MORE
+Dialogue: 0,0:00:20.25,0:00:22.32,Shorts,,0,0,0,,{\c&H004CE7FF&\b1}SMART{\c&H00FFFFFF&\b0}\NTECH FACTS.

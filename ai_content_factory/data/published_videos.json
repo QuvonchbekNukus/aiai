@@ -725,5 +725,49 @@
       "generated_at": "2026-03-12T17:25:32.867238Z"
     },
     "status": "published"
+  },
+  {
+    "recorded_at": "2026-04-01T13:59:47.503951+00:00",
+    "channel_id": "tech_facts_daily",
+    "channel_name": "Tech Facts Daily",
+    "job": {
+      "job_id": "tech_facts_daily-20260401135847-consumer-technology-fact",
+      "channel_id": "tech_facts_daily",
+      "topic": "Consumer Technology Facts And Digital Behavior angle 18",
+      "status": "completed",
+      "created_at": "2026-04-01T13:58:47.059278Z",
+      "completed_at": "2026-04-01T13:59:47.502906Z",
+      "error_message": null,
+      "script_path": "D:\\aiai\\ai_content_factory\\output\\scripts\\tech_facts_daily\\tech_facts_daily-20260401135847-consumer-technology-fact_script.json",
+      "scene_path": "D:\\aiai\\ai_content_factory\\output\\scenes\\tech_facts_daily\\tech_facts_daily-20260401135847-consumer-technology-fact_scenes.json",
+      "subtitle_path": "D:\\aiai\\ai_content_factory\\output\\subtitles\\tech_facts_daily\\tech_facts_daily-20260401135847-consumer-technology-fact.srt",
+      "metadata_path": "D:\\aiai\\ai_content_factory\\output\\metadata\\tech_facts_daily\\tech_facts_daily-20260401135847-consumer-technology-fact_metadata.json",
+      "video_path": "D:\\aiai\\ai_content_factory\\output\\videos\\tech_facts_daily\\tech_facts_daily-20260401135847-consumer-technology-fact.mp4",
+      "uploads": [
+        {
+          "platform": "instagram",
+          "upload_id": "ig_tech_facts_daily_consumer-technology-fact_20260401135947",
+          "status": "mock_uploaded",
+          "uploaded_at": "2026-04-01T13:59:47.502829Z",
+          "url": null
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Consumer Technology Facts And Digital Behavior angle 18 in under 60 seconds",
+      "description": "Topic: Consumer Technology Facts And Digital Behavior angle 18\nNiche: consumer technology facts and digital behavior\nHook: Most people get consumer technology facts and digital behavior angle 18 wrong for one.\nCTA: Follow for more smart tech facts.",
+      "hashtags": [
+        "#TechFacts",
+        "#TechShorts",
+        "#AI",
+        "#Gadgets",
+        "#SmartExplainers",
+        "#Consumer",
+        "#Technology",
+        "#Facts"
+      ],
+      "generated_at": "2026-04-01T13:58:52.225068Z"
+    },
+    "status": "published"
   }
 ]

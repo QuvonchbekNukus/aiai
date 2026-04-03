@@ -1,9 +1,0 @@
-Topic: Consumer Technology Facts And Digital Behavior angle 13
-Provider: ollama
-Word Count: 43
-
-Hook: Your phone is secretly spying on you.
-
-Body: Did you know that most smartphones have location tracking enabled by default? This means your device can collect your location data even when you don and don't even realize it's happening.
-
-CTA: Check your phone settings now.

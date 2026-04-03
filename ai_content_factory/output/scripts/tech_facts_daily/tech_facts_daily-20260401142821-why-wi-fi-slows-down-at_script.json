@@ -1,0 +1,12 @@
+{
+  "job_id": "tech_facts_daily-20260401142821-why-wi-fi-slows-down-at",
+  "channel_id": "tech_facts_daily",
+  "topic": "Why Wi-Fi slows down at night",
+  "language": "en",
+  "hook": "Your Wi-Fi gets slower at night.",
+  "body": "More nearby devices wake up after dinner. They crowd the same wireless channels. Your router waits longer, so everything feels slower.",
+  "cta": "Follow for more smart tech facts.",
+  "created_at": "2026-04-01T14:28:23.223795Z",
+  "provider_name": "deterministic_fallback",
+  "prompt_template": "Create a short-form faceless video script for an 18-28 second vertical short.\nInputs:\n- channel niche\n- audience\n- topic\n- language\n- prompt style\n- style notes\n\nOutput requirements:\n1. Hook: exactly 1 simple sentence, under 10 words\n2. Body: 2-3 short spoken sentences\n3. CTA: exactly 1 short action sentence, under 6 words\n4. Every sentence should express one idea only\n5. Use plain, easy spoken language\n6. Total spoken script should feel natural for YouTube Shorts\n7. Avoid generic filler, jargon, and robotic phrasing\n"
+}

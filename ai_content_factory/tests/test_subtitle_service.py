@@ -33,5 +33,7 @@ def test_subtitle_timing_generation(temp_settings, sample_channel) -> None:
     subtitle_path = service.generate_subtitles(channel=sample_channel, scene_plan=scene_plan)
     content = subtitle_path.read_text(encoding="utf-8")
 
-    assert "00:00:02,000 --> 00:00:03,500" in content
-    assert "00:00:03,500 --> 00:00:05,500" in content
+    assert subtitle_path.suffix == ".ass"
+    assert "Dialogue: 0,0:00:00.00,0:00:01.50" in content
+    assert "Dialogue: 0,0:00:01.50,0:00:03.50" in content
+    assert "{\\c&H004CE7FF&\\b1}" in content

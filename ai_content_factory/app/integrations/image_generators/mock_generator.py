@@ -16,6 +16,11 @@ class MockImageGenerator(ImageGenerator):
         prompt: str,
         topic: str,
         scene_text: str,
+        headline_text: str | None = None,
+        supporting_text: str | None = None,
+        icon_key: str | None = None,
+        background_style: str | None = None,
+        layout_variant: str | None = None,
         channel_name: str,
         visual_theme: str,
         scene_index: int,
@@ -55,10 +60,18 @@ class MockImageGenerator(ImageGenerator):
         )
         draw.text(
             (overlay_margin + 32, 160),
-            wrap_text(scene_text[:90], width=24),
+            wrap_text((headline_text or scene_text)[:90], width=24),
             fill=(240, 240, 240),
             font=font,
         )
+        if supporting_text:
+            draw.multiline_text(
+                (overlay_margin + 32, 300),
+                wrap_text(supporting_text[:140], width=28),
+                fill=(220, 220, 220),
+                font=font,
+                spacing=6,
+            )
         image.save(output_path)
         return GeneratedImageResult(path=output_path, width=width, height=height)
 

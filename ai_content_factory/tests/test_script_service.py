@@ -13,7 +13,7 @@ def test_script_service_fallback_creates_short_form_script(temp_settings, sample
 
     assert path.exists()
     assert script.provider_name == "deterministic_fallback"
-    assert len(script.hook.split()) <= 14
-    assert len(script.cta.split()) <= 8
-    assert 38 <= script.word_count() <= 85
-
+    assert len(script.hook.split()) <= 9
+    assert len(script.cta.split()) <= 6
+    assert 32 <= script.word_count() <= 56
+    assert 2 <= len(script.body.split(".")) - 1 <= 3

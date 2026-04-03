@@ -1,7 +1,10 @@
-Split the script into 5-6 scenes.
+Split the script into 4-5 scenes.
 Each scene should include:
-- scene text for on-screen display
-- image prompt
+- a short headline for on-screen display
+- supporting on-screen text
+- image prompt for a motion background or b-roll style visual
 - voice text
 - estimated duration in seconds
-- keep pacing tight for a 25-35 second short
+- keep pacing tight for an 18-28 second short
+- avoid plain text-only slide language
+- make each scene visually distinct

@@ -89,14 +89,17 @@ class ScriptService:
         return self._normalize_payload(payload=fallback, channel=channel)
 
     def _normalize_payload(self, *, payload: GeneratedScriptPayload, channel: ChannelConfig) -> GeneratedScriptPayload:
-        hook = self._truncate_words(self._normalize_sentence(payload.hook), max_words=14)
-        body_sentences = [self._truncate_words(sentence, max_words=18) for sentence in split_sentences(payload.body)]
-        if len(body_sentences) < 3:
-            compact = self._truncate_words(self._normalize_sentence(payload.body), max_words=42)
-            body_sentences = split_sentences(compact)
+        hook = self._truncate_words(self._normalize_sentence(payload.hook), max_words=9)
+        body_sentences = [
+            self._truncate_words(self._normalize_sentence(sentence), max_words=11)
+            for sentence in split_sentences(payload.body)
+        ]
+        if len(body_sentences) < 2:
+            compact = self._truncate_words(self._normalize_sentence(payload.body), max_words=30)
+            body_sentences = self._fallback_body_sentences(compact)
         body = " ".join(body_sentences[:3])
         cta_default = channel.cta_template or "Follow for more tech facts."
-        cta = self._truncate_words(self._normalize_sentence(payload.cta or cta_default), max_words=8, terminal=".")
+        cta = self._truncate_words(self._normalize_sentence(payload.cta or cta_default), max_words=6, terminal=".")
         return GeneratedScriptPayload(
             hook=hook,
             body=body,
@@ -111,6 +114,17 @@ class ScriptService:
             normalized += "."
         return normalized
 
+    def _fallback_body_sentences(self, text: str) -> list[str]:
+        words = text.replace(".", "").split()
+        if not words:
+            return []
+        chunks: list[str] = []
+        for index in range(0, len(words), 8):
+            sentence = " ".join(words[index : index + 8]).strip()
+            if sentence:
+                chunks.append(self._normalize_sentence(sentence))
+        return chunks[:3]
+
     def _truncate_words(self, text: str, *, max_words: int, terminal: str = ".") -> str:
         words = text.split()
         truncated = " ".join(words[:max_words]).strip()
@@ -122,6 +136,9 @@ class ScriptService:
         if not payload.hook or not payload.body or not payload.cta:
             return False
         total_words = len(f"{payload.hook} {payload.body} {payload.cta}".split())
-        if total_words < 38 or total_words > 85:
+        if total_words < 32 or total_words > 56:
             return False
-        return len(split_sentences(payload.body)) >= 2
+        sentence_count = len(split_sentences(payload.body))
+        if sentence_count < 2 or sentence_count > 3:
+            return False
+        return all(len(sentence.split()) <= 11 for sentence in split_sentences(payload.body))

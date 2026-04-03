@@ -1,9 +1,0 @@
-Topic: Consumer Technology Facts And Digital Behavior angle 14
-Provider: ollama
-Word Count: 42
-
-Hook: Did you know your phone can be hacked through this?
-
-Body: Your phone's Wi-Fi can be hacked through a weak password. This vulnerability is exploited by 1 in 5 users. Update your password now to stay safe online.
-
-CTA: Get the latest security tips.

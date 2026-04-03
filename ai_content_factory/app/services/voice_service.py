@@ -24,11 +24,16 @@ class VoiceService:
             )
             scene.voice_text = prepared_text
             scene.audio_path = str(result.path)
-            scene.duration_seconds = max(scene.duration_seconds, result.duration_seconds + 0.15)
+            scene.duration_seconds = max(scene.duration_seconds, result.duration_seconds + 0.28)
         return scene_plan
 
     def _prepare_text(self, text: str) -> str:
         sentences = split_sentences(text)
         if not sentences:
             return text.strip()
-        return " ".join(sentence.strip() for sentence in sentences)
+        prepared = []
+        for sentence in sentences:
+            cleaned = sentence.strip().rstrip(".!?")
+            if cleaned:
+                prepared.append(f"{cleaned}.")
+        return " ... ".join(prepared) if prepared else text.strip()
